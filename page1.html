@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Introduction to A-Frame</title>
+        <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene> 
+            <a-light type="directional" color="#ffffff" position="0 1 1"></a-light>
+            <a-box color="#0033ff" width="10" height="10" depth="10" position="0 0 -40">
+                <a-animation attribute="rotation" repeat="indefinite" to="360 360 0" dur="3000" easing="linear"></a-animation>
+            </a-box> 
+        </a-scene>    
+    </body>
+</html>
